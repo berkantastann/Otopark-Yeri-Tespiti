@@ -14,7 +14,14 @@ Bilgisayarlı görü ve makine öğrenmesi kullanarak gerçek zamanlı otopark y
 
 ## 🛠️ Teknoloji Stack
 
-- **Python 3.x**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
+
+- **Python 3.x** - Ana programlama dili
 - **OpenCV** - Görüntü işleme ve video analizi
 - **scikit-learn** - Makine öğrenmesi modeli
 - **scikit-image** - Görüntü ön işleme
@@ -45,20 +52,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
-4. Çıkmak için `q` tuşuna basın.
-
-## 📁 Proje Yapısı
-
-```
-├── main.py          # Ana uygulama
-├── util.py          # Yardımcı fonksiyonlar
-├── model.p          # Eğitilmiş ML modeli
-├── mask_1920_1080.png  # Park yeri maskeleri
-├── requirements.txt    # Gerekli kütüphaneler
-└── README.md          # Proje dokümantasyonu
-```
-
 ## 🎯 Nasıl Çalışır?
 
 1. **Mask İşleme**: Park yerlerinin konumları önceden tanımlanmış mask dosyasından alınır
